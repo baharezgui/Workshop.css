@@ -1,12 +1,23 @@
-li {
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+</style>
+
 .navbar ul {
-    background-color: #333;
-}
+    display: inline; /* Change display to inline */
+    margin-top: 10px;
+    }
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    text-align: center 20px;
 }
 .home {
     background-color: blue;
+}
+.header {
+    position: sticky;
+    top: 0;
+}
+li{
+    color: red;
+    display: inline;
 }
